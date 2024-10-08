@@ -1,0 +1,48 @@
+#Agua img {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+        
+
+    
+}
+
+body{
+    background-image: url(imagem/fundosite.gif);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0; 
+    height: 100vh;
+    margin-top: 230px;
+
+}
+
+main{
+
+display: flex;
+justify-content: center;
+}
+
+#menuu{
+    display: block;
+    width: 180px;
+    height: 429px;
+    background-image: url(imagem/mapa.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+    
+}
+
+button{
+    background-color: rgb(163, 149, 66);
+    
+    padding:10px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
